@@ -20,4 +20,6 @@ function generateQuote() {
     document.getElementById('quote-author').textContent = `— ${quoteAuthor}`;
 }
 
+document.getElementById('quote-generator-btn').addEventListener('click', generateQuote);
+
 generateQuote(); // Display a random quote on page load
